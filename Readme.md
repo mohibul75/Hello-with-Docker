@@ -18,3 +18,14 @@
 <p>Here all the VM are isolated from each other.</p>
 
 <p>Hypervisor is a virtualization software. It vitualize the physical resources.</p>
+
+*****************
+
+<h3>Hypervisor</h3>
+
+<p>Hypervisor is a piece of software or firmware that creates and run virtual machine.A hypervisor is sometimes also called a <b>virtual machine manager (VMM)</b></p>
+
+<h4>Types of hypervisor</h4>
+
+![Types of Hypervisor](./images/typesOfHypervisor.drawio.png)
+
