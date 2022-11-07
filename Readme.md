@@ -61,3 +61,64 @@
 
 ![Type-2 hypervisor](./images/type-2Hypervisor.drawio.png)
 
+***************
+
+<h4>Docker attach and Docker exec</h4>
+
+<ul>
+
+<li><p>Docker exec creates a new process in the container's  environment while docker attach just connect the standard Input/Output of the main process inside the 
+container to corresponding standard Input/Output error of current terminal.</p></li>
+
+<li>Docker exec is speciefically for running new things in a already started containers, be it a shell on some process.</li>
+
+</ul>
+
+<h4>Docker Expose and Publish(-p)</h4>
+
+<ul>
+
+<li>
+
+<p>
+
+If you specify neither expose and -p , the service in the container will only be accessible from inside the container itself.
+
+</p>
+
+</li>
+
+<li>
+
+<p>
+
+If you expose a port, the service in the container is not accessible from outside docker, but from inside other docker containers.
+ So this is good for inter-containers communication. 
+
+</p>
+
+</li>
+
+<li>
+
+<p>
+
+If you expose and -p a port, this service in the container is accessible from anywhere, even from the outside of the docker.
+
+</p>
+
+</li>
+
+<li>
+
+<p>
+
+If you do -p but do not expose docker does an emplicit expose. This is because if a port is open to the public, it is automatically also open
+to other docker containers. Hence -p includes expose.
+
+</p>
+
+</li>
+
+</ul>
+
