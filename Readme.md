@@ -1,4 +1,15 @@
-<h1>Virtualization</h1>
+<h1>Table of Contents</h1>
+
+-[1. Virtualization](#virtualization)
+    -[1.1 A general overview of virtualization](#a-general-overview-of-virtualization)
+    -[1.2 Hypervisor](#hypervisor)
+        -[1.2.1 Types of Hypervisor](#types-of-hypervisor)
+ -[2 Docker](#docker)
+    -[2.1 Docker-attach-and-docker-exec ](#docker-attach-and-docker-exec) 
+    -[2.2 docker-expose-and-publish-p ](#docker-expose-and-publish-p)
+
+
+# Virtualization
 
 <p>It is the techinque of splitting a physical resource into as many logical resources as we want as example- cpu, memory </p>
 
@@ -11,7 +22,7 @@
 ![SPliting resource to multiple resources](./images/splitingResources.png) ![SPliting resource to multiple resources](./images/mergingResources.png) 
 
 *****************
-<h3>A general overview of virtualization :</h3>
+## A general overview of virtualization :
 
 ![Virtualization Overview](./images/virtualization.png)
 
@@ -21,11 +32,11 @@
 
 *****************
 
-<h3>Hypervisor</h3>
+## Hypervisor
 
 <p>Hypervisor is a piece of software or firmware that creates and run virtual machine.A hypervisor is sometimes also called a <b>virtual machine manager (VMM)</b></p>
 
-<h4>Types of hypervisor</h4>
+### Types of hypervisor
 
 ![Types of Hypervisor](./images/typesOfHypervisor.drawio.png)
 
@@ -62,8 +73,9 @@
 ![Type-2 hypervisor](./images/type-2Hypervisor.drawio.png)
 
 ***************
+# Docker 
 
-<h4>Docker attach and Docker exec</h4>
+## Docker attach and Docker exec
 
 <ul>
 
@@ -74,7 +86,7 @@ container to corresponding standard Input/Output error of current terminal.</p><
 
 </ul>
 
-<h4>Docker Expose and Publish(-p)</h4>
+## Docker Expose and Publish(-p)
 
 <ul>
 
