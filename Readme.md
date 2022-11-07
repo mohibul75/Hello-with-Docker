@@ -1,12 +1,12 @@
 <h1>Table of Contents</h1>
 
--[1. Virtualization](#virtualization)
-    -[1.1 A general overview of virtualization](#a-general-overview-of-virtualization)
-    -[1.2 Hypervisor](#hypervisor)
-        -[1.2.1 Types of Hypervisor](#types-of-hypervisor)
- -[2 Docker](#docker)
-    -[2.1 Docker-attach-and-docker-exec ](#docker-attach-and-docker-exec) 
-    -[2.2 docker-expose-and-publish-p ](#docker-expose-and-publish-p)
+-[1. Virtualization](#virtualization)<br/>
+    -[1.1 A general overview of virtualization](#a-general-overview-of-virtualization)<br/>
+    -[1.2 Hypervisor](#hypervisor)<br/>
+        -[1.2.1 Types of Hypervisor](#types-of-hypervisor)<br/>
+ -[2 Docker](#docker)<br/>
+    -[2.1 Docker-attach-and-docker-exec ](#docker-attach-and-docker-exec) <br/>
+    -[2.2 docker-expose-and-publish-p ](#docker-expose-and-publish-p)<br/>
 
 
 # Virtualization
