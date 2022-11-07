@@ -29,3 +29,35 @@
 
 ![Types of Hypervisor](./images/typesOfHypervisor.drawio.png)
 
+<h4>Type-1 Hypervisor(firmware)</h4>
+
+<p>Also called Bare metal hypervisor. Type-1 Hypervisor run directly on the system hardware. A guest OS run on another level above the hypervisor.</p>
+
+
+<ul>
+
+<li> VMware ESXi is a type-1 hypervisor that runs on the host server hardware without an underlying OS.</li>
+
+<li>Type-1 hypervisor act as their own operating system.</li>
+
+
+</ul>
+
+<p>ESXi provides  a virtualization layer that abstracts the cpu, storage, memory and networking resources of the physical host into multiple virtual machine.</p>
+
+![Type-1 hypervisor](./images/virtualization.png)
+
+<h5>Type-2 Hypervisor</h5>
+
+<p>Hypervisor that runs within a convention OS environment and the host OS provides.</p>
+
+<ul>
+
+<li>Example of Type-2 hypervisor are Vmware workstation, Oracle Virtual Box and Microsoft Virtual Pc.</li>
+
+<li>It does not have direct access to the host hardware and resources.</li>
+
+</ul>
+
+![Type-2 hypervisor](./images/type-2Hypervisor.drawio.png)
+
