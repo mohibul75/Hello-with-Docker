@@ -127,6 +127,53 @@ No pre-allocation of RAM.
 </ul>
 
 ![Docker Full Senario](./images/dockerScenario.drawio.png)
+
+## Docker Client-Server Architecture
+
+<h3>Docker Daemon</h3>
+
+<p>Docker daemon runs on the host OS. It is responsible for running
+containers to manages docker services. Docker Daemon can communicate with other daemon.</p>\
+
+<h3>Docker Client</h3>
+
+<p>Docker users can interact with docker daemon through a client(CLI). Docker client uses commands and rest api to communicate with
+the docker daemon. When a client runs any server command on the docker client terminal, the client terminal sends these 
+docker commands to the docker daemon.It is possible for docker client to communoicate with more than one daemon.</p>
+
+<h3>Docker Host</h3>
+
+<p>Docker Host is used to provide an environment to execute and run applications.
+ It contains the docker daemon, images, containers, networks and storages.</p>
+
+ <h3>Docker Hub</h3>
+
+ <p>Docker registry manages and stores the docker images. Registry can be two types : publiuc and private .</p>
+
+<h3>Docker Images</h3>
+
+<p>Docker images are the read only binary templates used to create docker containers. Or 
+single file with all dependencies and configuration required to run a program.</p>
+
+<h3>Ways to create an docker images</h3>
+
+<ol>
+ 
+<li><p>Take image from docker Hub</p></li>
+
+<li><p>Create Image from docker file</p></li>
+
+<li><p>Create image from existing docker containers</P></li>
+
+ </ol>
+
+ <h3>Docker Hub </h3>
+
+ <p>Conatiners hold the entire packages that is needed to run the application- or The image is a template and the container is a running 
+ copy of that template . Images becomes container when they run on docker engine.</p>
+
+![Docker Client Server Architecture](./images/dockerEcosystem.drawio.png)
+
 ## Docker attach and Docker exec
 
 <ul>
