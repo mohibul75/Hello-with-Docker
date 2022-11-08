@@ -108,7 +108,7 @@ Docker written in <b>GO</b> language.
 <li><p>
 
 Docker is a tool thet performs OS level virtualization also known as containerization. Docker is 
-a set of platfrom as a service. While VMware uses hardware level virtualization.
+a set of platfrom as a service. While VMware uses hardware level virtualization. 
 
 </p></li>
 
@@ -118,8 +118,15 @@ Before DOcker many users faces the problem that a particular code is running in 
 
 </p></li>
 
+<li><p>
+
+No pre-allocation of RAM.
+
+</p></li>
+
 </ul>
 
+![Docker Full Senario](./images/dockerScenario.drawio.png)
 ## Docker attach and Docker exec
 
 <ul>
