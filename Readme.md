@@ -54,7 +54,8 @@
 
 </ul>
 
-<p>ESXi provides  a virtualization layer that abstracts the cpu, storage, memory and networking resources of the physical host into multiple virtual machine.</p>
+<p>ESXi provides  a virtualization layer that abstracts the cpu, storage, memory and 
+networking resources of the physical host into multiple virtual machine.</p>
 
 ![Type-1 hypervisor](./images/virtualization.png)
 
@@ -76,6 +77,48 @@
 # Docker 
 
 ![Docker Introduction](./images/docker.drawio.png)
+
+<ul>
+
+<li><p>
+
+Docker is an open-source centralised platform designed to create, deploy and run applications.
+
+</p></li>
+
+<li><p>
+
+Docker uses container on the host OS to run applications. It allows applications to use the same linux kernel as
+a system on the host computer rather than creating a whole virtual OS.
+
+</p></li>
+
+<li><p>
+
+We can install docker on any OS but Docker engine runs natively on Linux distribution.
+
+</p></li>
+
+<li><p>
+
+Docker written in <b>GO</b> language.
+
+</p></li>
+
+<li><p>
+
+Docker is a tool thet performs OS level virtualization also known as containerization. Docker is 
+a set of platfrom as a service. While VMware uses hardware level virtualization.
+
+</p></li>
+
+<li><p>
+
+Before DOcker many users faces the problem that a particular code is running in developer's system but not in the User's system.
+
+</p></li>
+
+</ul>
 
 ## Docker attach and Docker exec
 
