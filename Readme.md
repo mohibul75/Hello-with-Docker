@@ -7,6 +7,7 @@
  [2 Docker](#docker)<br/>
     [2.1 Docker-attach-and-docker-exec ](#docker-attach-and-docker-exec) <br/>
     [2.2 docker-expose-and-publish-p ](#docker-expose-and-publish-p)<br/>
+    [2.2 Docker client Server Architecture](#docker-client-server-architecture)
 
 
 # Virtualization
@@ -133,7 +134,7 @@ No pre-allocation of RAM.
 <h3>Docker Daemon</h3>
 
 <p>Docker daemon runs on the host OS. It is responsible for running
-containers to manages docker services. Docker Daemon can communicate with other daemon.</p>\
+containers to manages docker services. Docker Daemon can communicate with other daemon.</p>
 
 <h3>Docker Client</h3>
 
